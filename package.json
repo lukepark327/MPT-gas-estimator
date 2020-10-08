@@ -1,0 +1,18 @@
+{
+  "name": "trie_gas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node txProof.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-block": "^2.2.0",
+    "ethereumjs-tx": "^1.3.7",
+    "merkle-patricia-tree": "^2.3.2",
+    "web3": "^0.20.7"
+  }
+}
