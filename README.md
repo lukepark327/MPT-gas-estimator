@@ -14,10 +14,10 @@ $ node txProof.js
 * Comment out `L#308`-`L#311`.
 
 ```js
-        // var isValidEIP155V = vInt === this.getChainId() * 2 + 35 || vInt === this.getChainId() * 2 + 36;
-        // if (!isValidEIP155V) {
-        //     throw new Error("Incompatible EIP155-based V " + vInt + " and chain id " + this.getChainId() + ". See the second parameter of the Transaction constructor to set the chain id.");
-        // }
+// var isValidEIP155V = vInt === this.getChainId() * 2 + 35 || vInt === this.getChainId() * 2 + 36;
+// if (!isValidEIP155V) {
+//     throw new Error("Incompatible EIP155-based V " + vInt + " and chain id " + this.getChainId() + ". See the second parameter of the Transaction constructor to set the chain id.");
+// }
 ```
 
 # References
